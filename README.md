@@ -13,3 +13,6 @@ cd Coronavirus-Tracker
 bash ინსტალაცია.sh
 bash Coronavirus-Tracker.sh
 ```
+
+<h2>ვიდეო</h2>
+<a href="https://www.youtube.com/watch?v=cC6Y3kTvfyc"><img src="https://i.ibb.co/nf0wYGK/foto-no-exif.png" style="max-width:100%;"></a>
