@@ -9,8 +9,8 @@
 
 dependencies() {
 
-command -v figlet > /dev/null 2>&1 || { echo >&2 "პროგრამას გასაშვებად ესაჭიროება figlet ინსტალაცია. (bash ინსტალაცია.sh)"; exit 1; }
-command -v curl > /dev/null 2>&1 || { echo >&2 "პროგრამას გასაშვებად ესაჭიროება curl ინსტალაცია. (bash ინსტალაცია.sh)"; exit 1; }
+command -v figlet > /dev/null 2>&1 || { echo >&2 "პროგრამას გასაშვებად ესაჭიროება figlet (bash ინსტალაცია.sh)"; exit 1; }
+command -v curl > /dev/null 2>&1 || { echo >&2 "პროგრამას გასაშვებად ესაჭიროება curl (bash ინსტალაცია.sh)"; exit 1; }
 
 }
 
