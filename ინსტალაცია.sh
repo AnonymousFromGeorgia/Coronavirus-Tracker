@@ -20,9 +20,9 @@ fi
 
 checkroot
 
-(trap '' SIGINT SIGTSTP && command -v figlet > /dev/null 2>&1 || { printf >&2  "\e[1;92mინსტალირდება Figlet, გთოხვთ მოიცადოთ...\n\e[0m"; apt-get update > /dev/null && apt-get -y install figlet > /dev/null || printf "\e[1;91mFiglet ვერ დაინსტალირდა.\n\e[0m"; }) & wait $!
+(trap '' SIGINT SIGTSTP && command -v figlet > /dev/null 2>&1 || { printf >&2  "\e[1;92mინსტალირდება Figlet, გთხოვთ მოიცადოთ...\n\e[0m"; apt-get update > /dev/null && apt-get -y install figlet > /dev/null || printf "\e[1;91mFiglet ვერ დაინსტალირდა.\n\e[0m"; }) & wait $!
 
-(trap '' SIGINT SIGTSTP && command -v curl > /dev/null 2>&1 || { printf >&2  "\e[1;92mინსტალირდება Curl, გთოხვთ მოიცადოთ...\n\e[0m"; apt-get update > /dev/null && apt-get -y install curl > /dev/null || printf "\e[1;91mCurl ვერ დაინსტალირდა.\n\e[0m"; }) & wait $!
+(trap '' SIGINT SIGTSTP && command -v curl > /dev/null 2>&1 || { printf >&2  "\e[1;92mინსტალირდება Curl, გთხოვთ მოიცადოთ...\n\e[0m"; apt-get update > /dev/null && apt-get -y install curl > /dev/null || printf "\e[1;91mCurl ვერ დაინსტალირდა.\n\e[0m"; }) & wait $!
 
 printf "\e[1;92mინსტალაცია წარმატებით დასრულდა.\n\e[0m"
 
