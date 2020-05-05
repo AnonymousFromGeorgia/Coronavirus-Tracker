@@ -7,6 +7,8 @@
 #https://Twitter.com/anonimaluri
 #http://anonymousfg.66ghz.com
 
+clear
+
 dependencies() {
 
 command -v figlet > /dev/null 2>&1 || { echo >&2 "პროგრამას გასაშვებად ესაჭიროება figlet (bash ინსტალაცია.sh)"; exit 1; }
