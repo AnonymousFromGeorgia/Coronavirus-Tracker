@@ -5,7 +5,7 @@
 #https://Github.com/AnonymousFromGeorgia
 #https://Facebook.com/anonimaluri
 #https://Twitter.com/anonimaluri
-#http://anonymousfg.66ghz.com
+#https://anonymousfg.rivyt.com
 
 clear
 
